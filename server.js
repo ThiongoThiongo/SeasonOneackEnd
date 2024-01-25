@@ -22,7 +22,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(
     cors({
       credentials: true,
-      origin: ["http://localhost:3000", "http://localhost:3003",  "http://localhost:3004", 'http://127.0.0.1:5502', 'http://127.0.0.1:5502', 'https://admins-mayh.onrender.com'],
+      origin: ["http://localhost:3000", "http://localhost:3003",  "http://localhost:3004", 'http://127.0.0.1:5502', 'http://127.0.0.1:5502', 'https://admininstacart.onrender.com'],
     })
   );
 app.use(cookieParser())
